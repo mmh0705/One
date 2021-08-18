@@ -26,17 +26,25 @@
     </div>
 </template>
 
-<script>
-export default {
-    methods: {
-        // getData () {
-        //   cordova.exec(success, null,"CordovaCustomPlugin", "coolMethod", [111,222]);
-        // },
-        success(result) {
-            alert(result);
-        }
+<script lang='ts'>
+import Vue from "vue";
+import Component from "vue-class-component";
+
+@Component
+export default class SMS extends Vue {
+    getData() {
+        cordova.exec(
+            this.success.bind(this),
+            e => console.error(e),
+            "CordovaCustomPlugin",
+            "coolMethod",
+            [111, 222]
+        );
     }
-};
+    success(result: any) {
+        alert(result);
+    }
+}
 </script>
 
 <style>
