@@ -1,7 +1,7 @@
-import $ from "jquery";
+import $ from 'jquery';
 
-import Vue from "vue";
-import App from "./App.vue";
+import Vue from 'vue';
+import App from './App.vue';
 import router from "./router";
 import { BootstrapVue, IconsPlugin } from "bootstrap-vue";
 import "bootstrap/dist/css/bootstrap.css";
@@ -26,8 +26,8 @@ function onServiceReady() {
   new Vue({
     el: "#app",
     router,
-    components: { App },
-    template: "<App/>",
+    components: { [App.name]: App },
+    template: `<${App.name}/>`,
   });
 }
 

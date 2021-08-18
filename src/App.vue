@@ -8,17 +8,19 @@
   </div>
 </template>
 
-<script>
+<script lang="ts">
+import Vue from "vue";
+import Component from "vue-class-component";
+
 import BottomNavigation from "./components/layout/BottomNavigation.vue";
 import LoadingScreen from "./components/layout/LoadingScreen.vue";
 
-export default {
-  name: "App",
-  components: {
-    BottomNavigation,
-    LoadingScreen,
-  },
-};
+@Component({
+  components: { BottomNavigation, LoadingScreen },
+})
+export default class App extends Vue {
+  public isLoading: boolean = false;
+}
 </script>
 
 <style>

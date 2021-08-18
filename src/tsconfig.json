@@ -12,6 +12,7 @@
         "module": "commonjs",
         "moduleResolution": "Node",
         "allowJs": true,
+        "outDir": "../tsc",
         "noImplicitAny": true,
         "experimentalDecorators": true,
         // "baseUrl": ".",
