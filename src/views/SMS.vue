@@ -41,7 +41,7 @@ export default class SMS extends Vue {
             [111, 222]
         );
     }
-    success(result: any) {
+    success(result: any): void {
         alert(result);
     }
 }
