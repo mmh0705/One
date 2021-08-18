@@ -1,4 +1,5 @@
 {
+    "extends": "@tsconfig/recommended/tsconfig.json",
     "compileOnSave": true,
     "compilerOptions": {
         "lib": [
@@ -10,6 +11,7 @@
         "target": "es6",
         "module": "commonjs",
         "moduleResolution": "Node",
+        "allowJs": true,
         "noImplicitAny": true,
         "experimentalDecorators": true,
         // "baseUrl": ".",
@@ -19,9 +21,13 @@
         // 
     },
     "include": [
-        "src/**/*",
+        "./**/*",
+        // "**/*.d.ts",
+        // "**/*.vue"
     ],
-    "exclude": [
-        "node_modules"
+    "exclude": [],
+    "files": [
+        // "./d.ts/ace.d.ts",
+        // "./d.ts/vue.d.ts",
     ]
 }

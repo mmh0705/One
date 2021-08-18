@@ -16,6 +16,16 @@ $ cordova plugin add
 $ cordova plugin add .\CordovaCustomPlugin\  
 $ cordova build android  
 
+# typescript
+## npm supports(already installed)
+$ npm install --save-dev @tsconfig/recommended  
+$ npm install --save-dev typescript   
+$ npm install --save-dev @vue/cli-plugin-typescript  
+
+## command 
+$ tsc --build src/tsconfig.json  
+(or) $ npm run tsc
+
 
 > A Vue.js project
 
