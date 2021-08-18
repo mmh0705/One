@@ -1,0 +1,12 @@
+{
+    "recommendations": [
+        "eg2.vscode-npm-script",
+        "aeschli.vscode-css-formatter",
+        "eg2.vscode-npm-script",
+        "esbenp.prettier-vscode",
+        "christian-kohler.npm-intellisense",
+        "christian-kohler.path-intellisense",
+        "cstuder.gitlab-ci-validator",
+        "octref.vetur",
+    ]
+}

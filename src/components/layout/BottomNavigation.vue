@@ -1,43 +1,44 @@
 <template>
-        <nav class="nav">
-            <a href="#/" class="nav__link">
-                <div>
-                    <b-icon icon="house-fill" class="nav__icons"></b-icon>
-                </div>
-                <span class="nav__text">홈</span>
-            </a>
+    <nav class="nav">
+        <a href="#/" class="nav__link">
+            <div>
+                <b-icon icon="house-fill" class="nav__icons"></b-icon>
+            </div>
+            <span class="nav__text">홈</span>
+        </a>
 
-            <a href="#/sms" class="nav__link">
-                <div>
-                    <b-icon icon="chat-left-dots-fill" class="nav__icons"></b-icon>
-                </div>
-                <span class="nav__text">문자열람</span>
-            </a>
+        <a href="#/sms" class="nav__link">
+            <div>
+                <b-icon icon="chat-left-dots-fill" class="nav__icons"></b-icon>
+            </div>
+            <span class="nav__text">문자열람</span>
+        </a>
 
-            <a href="#slide-3" class="nav__link">
-                <div>
-                    <b-icon icon="graph-up" class="nav__icons"></b-icon>
-                </div>
-                <span class="nav__text">상세분석</span>
-            </a>
+        <a href="#slide-3" class="nav__link">
+            <div>
+                <b-icon icon="graph-up" class="nav__icons"></b-icon>
+            </div>
+            <span class="nav__text">상세분석</span>
+        </a>
 
-            <a href="#slide-4" class="nav__link">
-                <div>
-                    <b-icon icon="lightning-fill" class="nav__icons"></b-icon>
-                </div>
-                <span class="nav__text">예방팁</span></a>
+        <a href="#slide-4" class="nav__link">
+            <div>
+                <b-icon icon="lightning-fill" class="nav__icons"></b-icon>
+            </div>
+            <span class="nav__text">예방팁</span></a
+        >
 
-            <a href="#slide-5" class="nav__link">
-                <div>
-                    <b-icon icon="list" class="nav__icons"></b-icon>
-                </div>
-                <span class="nav__text">메뉴</span></a>
-        </nav>
+        <a href="#slide-5" class="nav__link">
+            <div>
+                <b-icon icon="list" class="nav__icons"></b-icon>
+            </div>
+            <span class="nav__text">메뉴</span></a
+        >
+    </nav>
 </template>
 
 <script>
-export default {
-}
+export default {};
 </script>
 
 <style>
@@ -80,5 +81,4 @@ export default {
 .nav__icon {
     font-size: 18px;
 }
-
 </style>

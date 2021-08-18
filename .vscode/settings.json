@@ -23,15 +23,28 @@
     "[json]": {
         "editor.defaultFormatter": "vscode.json-language-features"
     },
+    "[vue]": {
+        "editor.defaultFormatter": "octref.vetur"
+    },
     "search.exclude": {
         "**/.git": true,
-        "**/build": true,
         "**/node_modules": true,
-        "**/bootstrap": true,
+        "**/platforms": true,
+        "**/plugins": true,
+        "**/tsc": true,
+        "**/www": true,
     },
     "html.suggest.html5": true,
-    "vetur.format.options.tabSize": 2,
+    "vetur.format.options.tabSize": 4,
     "vetur.format.options.useTabs": false,
-    "vetur.format.defaultFormatter.ts": "vscode-typescript",
-    "vetur.format.defaultFormatter.js": "vscode-typescript",
+    "vetur.format.defaultFormatter.html": "prettier",
+    "vetur.format.defaultFormatter.pug": "prettier",
+    "vetur.format.defaultFormatter.css": "prettier",
+    "vetur.format.defaultFormatter.postcss": "prettier",
+    "vetur.format.defaultFormatter.scss": "prettier",
+    "vetur.format.defaultFormatter.less": "prettier",
+    "vetur.format.defaultFormatter.stylus": "stylus-supremacy",
+    "vetur.format.defaultFormatter.js": "prettier",
+    "vetur.format.defaultFormatter.ts": "prettier",
+    "vetur.format.defaultFormatter.sass": "sass-formatter",
 }
