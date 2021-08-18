@@ -7,7 +7,7 @@
   "scripts": {
     "build": "webpack & cordova build android",
     "start": "webpack serve",
-    "tsc": "tsc --build src/tsconfig.json"
+    "tsc": "tsc --build src/tsconfig.json"    
   },
   "dependencies": {
     "@popperjs/core": "^2.9.3",
