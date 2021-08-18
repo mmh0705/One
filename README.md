@@ -24,7 +24,8 @@ $ npm install --save-dev @vue/cli-plugin-typescript
 
 ## command 
 $ tsc --build src/tsconfig.json  
-(or) $ npm run tsc
+(or) $ npm run tsc  
+* you don't need to build tsc, cause a webpack support tsc command internaly  
 
 
 > A Vue.js project
