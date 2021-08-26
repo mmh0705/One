@@ -1,10 +1,8 @@
 <template>
     <div id="app">
-        <router-view />
         <BottomNavigation />
         <LoadingScreen :isLoading="isLoading" />
-        <!-- <div v-if="!isLoading">
-    </div> -->
+        <router-view />
     </div>
 </template>
 
@@ -35,7 +33,7 @@ div {
     padding: 0;
 }
 #app {
-    background-color: blueviolet;
+    background-color: white;
     height: 100%;
     margin: 0;
 }

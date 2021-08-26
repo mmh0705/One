@@ -1,19 +1,19 @@
 <template>
     <div :class="{ loader: true, fadeout: !isLoading }">
-        Loading ...
+        <img class="logo" src="C:\Users\21500\Desktop\Senior\One\src\components\layout\okat.png" />
     </div>
 </template>
 
 <script>
 export default {
     name: "LoadingScreen",
-    props: ["isLoading"]
+    props: ["isLoading"],
 };
 </script>
 
 <style>
 .loader {
-    background-color: #63ab97;
+    background-color: red;
     bottom: 0;
     color: white;
     display: block;
@@ -28,7 +28,7 @@ export default {
 }
 
 .fadeout {
-    animation: fadeout 2s forwards;
+    animation: fadeout 2s 1s forwards;
 }
 
 @keyframes fadeout {
@@ -36,5 +36,9 @@ export default {
         opacity: 0;
         visibility: hidden;
     }
+}
+
+.logo {
+    margin-top: 100px;
 }
 </style>
